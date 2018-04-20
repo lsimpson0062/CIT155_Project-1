@@ -1,0 +1,138 @@
+/* Style sheet created by: Lezlee Simpson, 3/20/2018 */
+
+html {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #9ecbc6;
+}
+
+#index-bg {
+	background: url(../images/keyhole1.jpg) no-repeat center center fixed;
+}
+
+#lore-bg {
+	background: url(../images/blue.jpg) repeat center center fixed;
+}
+
+body {
+	font-family: Papyrus, "Comic Sans MS", Courier;
+	color: #342649;
+	font-weight: bold;
+}
+
+/* Styles for Mobile Layout */
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header, h1, h2 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.5em;
+	color: #5f5ba8;
+	margin: 0;
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	padding: 0.5em 0.5em;
+}	
+
+.center {
+    width: 100%;
+}
+
+nav {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	margin: auto;
+	width: 50%;
+}
+
+nav li {
+	list-style-type: none; 
+	padding: 0.3em 0.3em;
+}
+
+nav li a { 
+	color: #5f5ba8; 
+    text-decoration: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+main {
+	font-size: 1.2em;
+	margin-top: 0.2em;
+	padding: 0.5em;
+}
+
+footer {
+	font-size: 0.8em;
+	text-align: left;
+	margin-top: 2em;
+}
+
+/* Styles for tablet viewport */
+
+@media only screen and (min-width: 481px) {
+
+img {
+	width: 30%;
+}
+
+.center {
+    width: 60%;
+}
+}
+
+/* Styles for desktop viewport */
+
+@media only screen and (min-width: 770px) {
+
+img {
+	width: 20%
+}
+
+.center {
+	width: 50%;
+}
+
+nav li a { 
+    display: block;
+    text-align: center;
+    padding: 0.1em 0.1em;
+    text-decoration: none;
+}
+	
+.other ul {
+    margin: auto;
+	width: 65%;
+}
+
+.other li {
+	display: inline-block; 
+}
+
+.other li a { 
+	color: #5f5ba8; 
+    text-decoration: none;
+	padding: 5px;
+}
+}
